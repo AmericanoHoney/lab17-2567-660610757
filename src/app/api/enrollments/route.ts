@@ -3,7 +3,7 @@ import {
   zEnrollmentPostBody, 
   zEnrollmentDeleteBody 
 } from "@lib/schema";
-import { DB, Student } from "@lib/DB";
+import { DB} from "@lib/DB";
 import { NextRequest, NextResponse } from "next/server";
 
 export const GET = async (request:NextRequest) => {
